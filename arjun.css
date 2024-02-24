@@ -1,0 +1,161 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url(lale.png.jpg); */
+
+}
+
+
+#navbar::before {
+    top: 0px;
+    left: 0px;
+}
+
+.box {
+    display: flex;
+    background-color: rgb(132, 128, 128);
+    color: white;
+    top: 0px;
+    left: 0px;
+}
+
+.item {
+    margin-left: 50px;
+    padding: 19px 25px;
+}
+#navbar span{
+    margin: 9px 0px 0px 576px;
+    color:chartreuse
+}
+
+
+#section::before {
+    content: "";
+    background: url(laleshvari.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: -19px;
+    left: 0px;
+    height: 30rem;
+    width: 100%;
+    padding-bottom: 3cm;
+    z-index: -1;
+    opacity: 2;
+}
+
+#section {
+    display: flex;
+    /* background-color: rgb(239, 128, 222); */
+    height: 33rem;
+    justify-content: center;
+}
+
+#section p {
+    margin-left: 147px;
+    margin-top: 96px;
+    /* margin-bottom: 96px; */
+    width: 519px;
+    font-size: 75px;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#section p b {
+    justify-content: left;
+    color: rgb(180, 22, 22);
+    font-size: 49px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 18px 0px 0px -98px;
+}
+
+#section span {
+    font-size: 23px;
+    margin:94px -43px 0px -371px;
+    color: white;
+}
+
+
+
+#section img {
+    width: 11cm;
+    height: 9cm;
+    margin: 98px 0px 0px 261px;
+    border: 2px solid rgb(149, 80, 80);
+    border-radius: 10px;
+    transform: rotate(rotate);
+}
+
+#selection {
+    display: flex;
+    flex-direction: column;
+    background-color: #d1f1e6;
+    margin-top: 43px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#selection h2 {
+    color: white;
+    font-size: 42px;
+    color: red;
+}
+#selection .logo{
+    display: flex;
+    margin: -41px 0px 0px 11px;
+}
+
+#selection img {
+    width: 11cm;
+    height: 9cm;
+    margin: 68px 0px 0px 220px;
+    border: 2px solid rgb(149, 80, 80);
+    border-radius: 8px;
+}
+
+#selection .image1 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px 0px 0px 222px;
+}
+
+#selection1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #d1f1e6;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#selection1 .logo{
+    display: flex;
+    margin: -41px 0px 0px 11px;
+}
+
+#selection1 img {
+    width: 11cm;
+    height: 9cm;
+    margin: 68px 0px 0px 220px;
+    border: 2px solid rgb(149, 80, 80);
+    border-radius: 8px;
+}
+
+#selection1 .image1 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px 0px 0px 222px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f97979;
+    margin: 40px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#contact h2 {
+    color:green;
+    font-size: 42px;
+    
+}
