@@ -4,76 +4,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LALESHVARI STUDIO</title>
-    <link rel="stylesheet" href="arjun.css">
-</head>
-<style>
+    <title>laleshvari STUDIO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js   ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-</style>
+    <style>
+        .background-section {
+            position: relative;
+            background-image: url('laleshvari.jpg');
+            /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            /* Adjust as needed */
+        }
+
+        .content-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+        }
+
+        .logo {
+            font-size: -1rem;
+            font-weight: bold;
+            margin-top: -4vh;
+            margin-left: -14vh;
+        }
+
+        .welcome-text {
+            font-size: -1rem;
+            font-weight: bold;
+            margin-top: -24vh;
+            margin-left: -14vh;
+        }
+
+        .subtext {
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+
+        .facilities {
+            background-color: aqua;
+            margin-top: 25px;
+        }
+
+        .card {
+            margin-left: 16px;
+        }
+
+        footer ul {
+            padding: 0;
+        }
+
+        footer ul li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+        footer ul li a:hover {
+            text-decoration: underline;
+            color: #00bfff;
+        }
+
+        .text-center mt-4 {
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
 
 <body>
 
-    <nav id="navbar">
-        <div class="box">
-            <div class="item" color="red"> Home</div>
-            <div class="item" color="yellow"> Design</div>
-            <div class="item"  color="red"> layout</div>
-            <div class="item" href="#contact" color="yellow"> Contact us</div>
+    </style>
+    </head>
 
-            <span>
-                -Naresh Boricha
-                <br>
-                -Arjun Boricha
-            </span>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><b>STUDIO</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Layout</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true" href="#Contact-us">Contact-us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
+        <section class="background-section">
+            <div class="content-overlay">
+                <h1 class="welcome-text">Welcome</h1>
+                <div class="logo">
+                    Laleshwari Studio
+                </div>
+                <!-- <p class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel officia numquam.</p> -->
+            </div>
+        </section>
+
+        <section class="facilities">
+            <h1>
+                <center> Our facilities</center>
+            </h1>
+            <div class="card" style="width: 18rem;">
+                <img src="arjun1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Wedding Photoshout</h5>
+                    <p class="card-text"> ~We are providing traditional wedding photoshout.</p>
+                    <a href="https://www.google.com/imgres?q=wedding%20photos&imgurl=https%3A%2F%2Fwww.ptaufiqphotography.com%2Fwp-content%2Fuploads%2F2024%2F06%2Fptaufiq-indian-wedding-rajkot-India-ceremony-couple-portraits.jpg&imgrefurl=https%3A%2F%2Fwww.ptaufiqphotography.com%2Findian-wedding-timeline%2F&docid=SgVBkbms5sVV_M&tbnid=3TAyaztNKAD9FM&vet=12ahUKEwjOzcqko_CKAxWWqFYBHTj9H-YQM3oECH0QAA..i&w=1000&h=667&hcb=2&ved=2ahUKEwjOzcqko_CKAxWWqFYBHTj9H-YQM3oECH0QAA"
+                        class="btn btn-primary">See More</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="arjun2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Prewedding Photoshout</h5>
+                    <p class="card-text"> ~We are providing traditional Prewedding photoshout.</p>
+                    <a href="https://www.google.com/imgres?q=wedding%20photos&imgurl=https%3A%2F%2Fwww.ptaufiqphotography.com%2Fwp-content%2Fuploads%2F2024%2F06%2Fptaufiq-indian-wedding-rajkot-India-ceremony-couple-portraits.jpg&imgrefurl=https%3A%2F%2Fwww.ptaufiqphotography.com%2Findian-wedding-timeline%2F&docid=SgVBkbms5sVV_M&tbnid=3TAyaztNKAD9FM&vet=12ahUKEwjOzcqko_CKAxWWqFYBHTj9H-YQM3oECH0QAA..i&w=1000&h=667&hcb=2&ved=2ahUKEwjOzcqko_CKAxWWqFYBHTj9H-YQM3oECH0QAA"
+                        class="btn btn-primary">See More</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="arjun3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Wedding Photoshout</h5>
+                    <p class="card-text"> ~We are providing Birthday party photoshout.</p>
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpVZCDrJ2LVRu0MxkapCcPREvEzhID41tKfw&s"
+                        class="btn btn-primary">See More</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="arjun4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Wedding Photoshout</h5>
+                    <p class="card-text"> ~We are providing video editing.</p>
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLahgmDtchUMLZ9D7SV7zNn0LPr4XZalzI8g&s"
+                        class="btn btn-primary">See More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="Contact-us mt-4" style="width: 18rem;">
+            <div class="card" style="width: 18rem;">
+                    <h5 class="card-title">Contact US</h5>
+                    <p class="card-text"> -> Mobile no: +91 9099790131,9265789457<br>
+                        -> E-mail: laleshwaristudio@gmail.com.</p>
+            </div>
+        </section>
+
+        <div class="text-center mt-1 " style="background-color: #595454;; color: white;">
+            <p class="mb-0">© 2025 Laleshwari Studio. All Rights Reserved.</p>
         </div>
-    </nav>
-    <section id="section">
-        <!-- <div id="logo"><img src="lale.png.jpg" alt=""></div> -->
-        <p> Welcome <br><br><br>
-            <!-- <b> * LALESHWARI STUDIO *</b> -->
-            <span>-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel officia numquam.</span>
-        </p>
-        <!-- <img src="lale.png.jpg" alt=""> -->
-    </section>
 
-    <section id="selection">
-        <h2>
-            <center> Our facilities</center>
-        </h2>
-        <div class="logo">
-            <div class="image1">
-                <img src="arjun1.png" alt="">
-                <p> ~We are providing traditional wedding photoshout.</p>
-            </div>
-            <div class="image1">
-                <img src="arjun2.jpg" alt="">
-                <p> ~We are also providing traditional prewedding photoshout.</p>
-            </div>
-        </div>
-    </section>
-    <section id="selection1">
-        <div class="logo">
-            <div class="image1">
-                <img src="arjun3.png" alt="">
-                <p> ~We are providing Birthday party photoshout.</p>
-            </div>
-            <div class="image1">
-                <img src="arjun4.png" alt="">
-                <p> ~We also prepare video editing.</p>
-            </div>
-        </div>
-    </section>
-    <footer id="contact">
-        <h2>Contact US</h2>
-        -> Mobile no: +91 9099790131,9265789457<br>
-        -> E-mail: laleshwaristudio@gmail.com
-
-
-
-    </footer>
-
-
-</body>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </html>
